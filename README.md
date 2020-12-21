@@ -49,3 +49,18 @@ The full .txt readout of the analysis looks like this and can be found [here:](h
 
 
 ## Election Audit Summary
+
+Currently, this script could be used to analyze any other election where the data is collected on the ballot level, the county name is in the 2nd column, and the candidate name is in the third column. 
+
+The process for changing the script to work on similarly structured data for a municipal election would be quite simple. Imagine instead of a using this script for a Congressional race in Colorado we instead used it for a mayoral race in Denver. If this dataset instead had votes broken down by precinct rather than county, it would be simple to change. While not strictly necessary, it would be best practice to rename all county variables to things like "precinct_name," "precinct_list," and "precinct_dict" etc.
+
+The only absolutely necessary change for the end user would be changing the print text from
+```
+ print("Largest county turnout:", largest_county, "\n")
+ ```
+ to
+ 
+```
+ print("Largest precinct turnout:", largest_precinct, "\n")
+```
+

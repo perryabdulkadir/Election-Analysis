@@ -15,7 +15,7 @@ Data source: election_results.csv
 Software: Visual Studio Code 1.52.1, Python 3.8.6
 
 ## Election Audit Results
-* Total votes cast in election
+* **Total votes cast in election**
 
 369,711
 

@@ -1,7 +1,7 @@
 # Election Analysis
 Columbia Data Science Module 3
 
-## Project Overview
+## Election Audit Overview
 In this project, Tom of the Colorado Board of Elections has tasked me with auditing the election results for Colorado's 1st Congressional District. Using Python, I have been tasked with coming up with the following figures for the race: 
 1) the total number of votes cast
 2) votes broken down by county in absolute terms and as percentages

@@ -43,4 +43,9 @@ Denver
 
 Diana DeGette won the election with 272,892 votes, which represents 73.8% of all ballots cast. 
 
+The full .txt readout of the analysis looks like this and can be found [here](:https://github.com/perryabdulkadir/Election-Analysis/blob/main/Resources/election_results_printout.PNG)
+
+![election_results_printout](Resources/election_results_printout)
+
+
 ## Election Audit Summary

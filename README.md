@@ -85,4 +85,19 @@ to
     print(election_results, end="")
     txt_file.write(election_results)
  ```
+ 
+This script could be changed in this way to accomodate any level of geography. For example, in a Colorado gubernatorial race, there may be data that has individual ballot data broken down on a municipal level. To accomodate this chamge would be simple. For programmer ease of use, variables should be renamed to "city_name," "city_list," and "city_dict," etc. From there, the print and write functions would neeed to be changed slightly. 
 
+```
+ print("Largest city turnout:", largest_city, "\n")
+```
+```
+ election_results = (
+        f"\nElection Results\n"
+        f"-------------------------\n"
+        f"Total Votes: {total_votes:,}\n"
+        f"-------------------------\n\n"
+        f"City Votes:\n")
+    print(election_results, end="")
+    txt_file.write(election_results)
+ ```

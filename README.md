@@ -20,6 +20,7 @@ Software: Visual Studio Code 1.52.1, Python 3.8.6
 369,711
 
 * Votes by county
+
 |County|Votes|Share of vote count|
 |------|-----|-------------------|
 |Jefferson|38,855|10.5%|
@@ -31,6 +32,7 @@ Software: Visual Studio Code 1.52.1, Python 3.8.6
 Denver
 
 * Votes by candidate
+
 |Candidate|Votes|Share of vote count|
 |---------|-----|-------------------|
 |Charles Casper Stockham|85,213|23.0%|

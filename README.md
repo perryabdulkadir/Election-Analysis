@@ -63,4 +63,26 @@ The only absolutely necessary change for the end user would be changing the prin
 ```
  print("Largest precinct turnout:", largest_precinct, "\n")
 ```
+and from
+```
+ election_results = (
+        f"\nElection Results\n"
+        f"-------------------------\n"
+        f"Total Votes: {total_votes:,}\n"
+        f"-------------------------\n\n"
+        f"County Votes:\n")
+    print(election_results, end="")
+    txt_file.write(election_results)
+```
+to
+```
+ election_results = (
+        f"\nElection Results\n"
+        f"-------------------------\n"
+        f"Total Votes: {total_votes:,}\n"
+        f"-------------------------\n\n"
+        f"Precinct Votes:\n")
+    print(election_results, end="")
+    txt_file.write(election_results)
+ ```
 

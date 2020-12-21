@@ -15,11 +15,11 @@ Data source: election_results.csv
 Software: Visual Studio Code 1.52.1, Python 3.8.6
 
 ## Election Audit Results
-* Total votes cast in election
+* **Total votes cast in election**
 
 369,711
 
-* Votes by county
+* **Votes by county**
 
 |County|Votes|Share of vote count|
 |------|-----|-------------------|
@@ -27,11 +27,11 @@ Software: Visual Studio Code 1.52.1, Python 3.8.6
 |Denver|306,055|82.8%|
 |Arapahoe|24,801|6.7%|
 
-* County with the most votes
+* **County with the most votes**
 
 Denver
 
-* Votes by candidate
+* **Votes by candidate**
 
 |Candidate|Votes|Share of vote count|
 |---------|-----|-------------------|
@@ -39,7 +39,7 @@ Denver
 |Diana DeGette|272,892|73.8%|
 |Raymon Anthony Doane|11,606|3.1%|
 
-* Winning candidate
+* **Winning candidate**
 
 Diana DeGette won the election with 272,892 votes, which represents 73.8% of all ballots cast. 
 

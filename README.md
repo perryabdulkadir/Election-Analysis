@@ -22,6 +22,8 @@ Software: Visual Studio Code 1.52.1, Python 3.8.6
 |County|Votes|Share of vote count|
 |------|-----|-------------------|
 |Jefferson|38,855|10.5%|
+|Denver|306,055|82.8%|
+|Arapahoe|24,801|6.7%|
 
 
 ## Election Audit Summary

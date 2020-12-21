@@ -11,8 +11,17 @@ In this project, Tom of the Colorado Board of Elections has tasked me with audit
 
 ## Resources
 Data source: election_results.csv
+
 Software: Visual Studio Code 1.52.1, Python 3.8.6
 
 ## Election Audit Results
+**Total votes cast in election**
+369,711
+
+**Votes by county**
+|County|Votes|Share of vote count|
+|------|-----|-------------------|
+|Jefferson|38,855|10.5%|
+
 
 ## Election Audit Summary

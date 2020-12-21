@@ -26,5 +26,16 @@ Software: Visual Studio Code 1.52.1, Python 3.8.6
 |Denver|306,055|82.8%|
 |Arapahoe|24,801|6.7%|
 
+**County with the most votes**
+
+Denver
+
+**Votes by candidate**
+|Candidate|Votes|Share of vote count|
+|---------|-----|-------------------|
+|Charles Casper Stockham|85,213|23.0%|
+|Diana DeGette|272,892|73.8%|
+|Raymon Anthony Doane|11,606|3.1%|
+
 
 ## Election Audit Summary

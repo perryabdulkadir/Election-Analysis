@@ -101,3 +101,11 @@ This script could be changed in this way to accomodate any level of geography. F
     print(election_results, end="")
     txt_file.write(election_results)
  ```
+
+-----
+
+### **Contact:**
+
+**Email:** perry.abdulkadir@alumni.harvard.edu
+
+**Linkedin:** https://www.linkedin.com/in/perry-abdulkadir-6a255199/

@@ -2,7 +2,7 @@
 Audit of CO-1 congressional race using Python
 
 ## Election Audit Overview
-In this project, Tom of the Colorado Board of Elections has tasked me with auditing the election results for Colorado's 1st Congressional District. Using Python, I have been tasked with coming up with the following figures for the race: 
+In this project, Tom of the Colorado Board of Elections has tasked me with auditing the election results for Colorado's 1st Congressional District. Using Python, I have been asked to come up the following figures for the race: 
 1) the total number of votes cast
 2) votes broken down by county in absolute terms and as percentages
 3) the county with the largest number of votes cast

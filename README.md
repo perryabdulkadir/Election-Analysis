@@ -12,7 +12,7 @@ In this project, Tom of the Colorado Board of Elections has tasked me with audit
 ## Resources
 Data source: election_results.csv
 
-Software: Visual Studio Code 1.52.1, Python 3.8.6
+Software: Visual Studio Code 1.52.1, Python 3.8.6, Jupyter Notebook
 
 ## Election Audit Results
 * **Total votes cast in election**

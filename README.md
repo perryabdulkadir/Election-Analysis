@@ -50,11 +50,11 @@ The full .txt readout of the analysis looks like this and can be found [here:](h
 
 ## Election Audit Summary
 
-Currently, this script could be used to analyze any other election where the data is collected on the ballot level, the county name is in the 2nd column, and the candidate name is in the third column. 
+Currently, this script could be used to analyze any other election where the data is collected on the ballot level, the county's name is in the 2nd column, and the candidate's name is in the third column. 
 
 The process for changing the script to work on similarly structured data for a municipal election would be quite simple. Imagine instead of a using this script for a Congressional race in Colorado we instead used it for a mayoral race in Denver. If this dataset instead had votes broken down by precinct rather than county, it would be simple to change. While not strictly necessary, it would be best practice to rename all county variables to things like "precinct_name," "precinct_list," and "precinct_dict" etc.
 
-The only absolutely necessary change for the end user would be changing the print text from
+The only necessary change for the end user would be changing the print text from
 ```
  print("Largest county turnout:", largest_county, "\n")
  ```
@@ -86,7 +86,7 @@ to
     txt_file.write(election_results)
  ```
  
-This script could be changed in this way to accomodate any level of geography. For example, in a Colorado gubernatorial race, there may be data that has individual ballot data broken down on a municipal level. To accomodate this chamge would be simple. For programmer ease of use, variables should be renamed to "city_name," "city_list," and "city_dict," etc. From there, the print and write functions would neeed to be changed slightly. 
+This script could be changed in this way to accommodate any level of geography. For example, in a Colorado gubernatorial race, there may be data that has individual ballot data broken down on a municipal level. To accommodate this change would be simple. For programmer ease of use, variables should be renamed to "city_name," "city_list," and "city_dict," etc. From there, the print and write functions would need to be changed slightly. 
 
 ```
  print("Largest city turnout:", largest_city, "\n")
